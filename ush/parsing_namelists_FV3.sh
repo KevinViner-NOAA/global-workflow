@@ -129,7 +129,6 @@ cat > input.nml <<EOF
   beta = 0.
   a_imp = 1.
   p_fac = 0.1
-  k_split = $k_split
   n_split = $n_split
   nwat = ${nwat:-2}
   na_init = $na_init

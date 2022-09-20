@@ -24,6 +24,7 @@ nhours_fcst:             $FHMAX
 fhrot:                   ${IAU_FHROT:-0}
 
 dt_atmos:                $DELTIM
+k_split:                 $k_split
 calendar:                ${calendar:-'julian'}
 restart_interval:        $restart_interval
 output_1st_tstep_rst:    .false.
